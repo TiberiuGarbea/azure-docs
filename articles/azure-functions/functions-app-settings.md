@@ -224,7 +224,7 @@ The value for this key is supplied in the format `<DESTINATION>:<VERBOSITY>`, wh
 
 ## WEBSITE\_CONTENTAZUREFILECONNECTIONSTRING
 
-For Consumption & Premium plans only. Connection string for storage account where the function app code and configuration are stored. See [Create a function app](functions-infrastructure-as-code.md#create-a-function-app).
+For Consumption & Elastic Premium plans only. Connection string for storage account where the function app code and configuration are stored. See [Create a function app](functions-infrastructure-as-code.md#create-a-function-app).
 
 |Key|Sample value|
 |---|------------|
@@ -240,7 +240,7 @@ For Premium plans only. A value of `1` enables your function app to scale when y
 
 ## WEBSITE\_CONTENTSHARE
 
-For Consumption & Premium plans only. The file path to the function app code and configuration. Used with WEBSITE_CONTENTAZUREFILECONNECTIONSTRING. Default is a unique string that begins with the function app name. See [Create a function app](functions-infrastructure-as-code.md#create-a-function-app).
+For Consumption & Elastic Premium plans only. The file path to the function app code and configuration. Used with WEBSITE_CONTENTAZUREFILECONNECTIONSTRING. Default is a unique string that begins with the function app name. See [Create a function app](functions-infrastructure-as-code.md#create-a-function-app).
 
 |Key|Sample value|
 |---|------------|
